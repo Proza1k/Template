@@ -40,10 +40,10 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .name__logo{
-    margin: 0 auto;
     position: static;
     display: inline-block;
     font-size: 75px;
+    margin: auto;
     margin-left: 0;
 }
 
