@@ -1,8 +1,6 @@
 body{
     font-family: 'Roboto Slab', serif;
     margin: 0;
-    font-size: 16px;
-    line-height: 1.5;
 }
 
 *,
@@ -34,6 +32,7 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .header__logo{
+    pointer-events: none;
     margin-right: 10px;
     height: 100px;
     margin-left: 5%;
@@ -45,6 +44,7 @@ h1, h2, h3, h4, h5, h6{
     font-size: 75px;
     margin: auto;
     margin-left: 0;
+    pointer-events: none;
 }
 
 .nav__logo{
@@ -67,13 +67,36 @@ h1, h2, h3, h4, h5, h6{
 .nav__link:hover {
     color: rgb(173, 0, 0);
 }
-
+.intro{
+    height: 100%;
+}
 .intro__background{
     pointer-events: none;
-    opacity: 0.7;
-    position: relative;
+    position: static;
     top: 0;
     right: 0;
     left: 0;
+    bottom: 0;
     width: 100%;
+}
+
+.body__description{
+    position: relative;
+    box-shadow: 0 0 3px 1px;
+    border: none;
+    border-bottom: 0.5px solid;
+    border-left: 0.5px solid;
+    border-right: 0.5px solid;
+    border-top: 2px solid;
+    border-color: gray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 300px;
+}
+
+.body__text__intro{
+    font-family: 'Chelsea Market', cursive;
+    font-size: 30px;
+    text-align: center;
 }
