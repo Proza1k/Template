@@ -2,4 +2,4 @@
 
 ## 
 - Мой первый шаблон
-- [Ссылка](proza1k.github.io/Template)
+- [Ссылка](https://proza1k.github.io/Template/)
